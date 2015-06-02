@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_defaut_edit_money"
+            android:textColor="@color/moneyColorPrimary"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GoPro Hero4 Black"
+            android:textSize="20dp"
+            android:layout_marginTop="5sp"
+            android:textColor="@color/blackText"
+            />
+
+        <EditText
+            android:id="@+id/edtNotice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_default_notice"
+            android:textColor="@color/noticeColorPrimary"
+            android:layout_marginTop="5sp"
+            />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout2">
+
+        <ImageButton
+            android:id="@+id/imageSaveButton"
+            android:layout_marginTop="200sp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@android:drawable/ic_menu_save"
+            android:background="@drawable/float_add_new"
+            android:contentDescription="@string/notification_null_2"
+            android:layout_gravity="center_horizontal" />
+
+    </FrameLayout>
+</RelativeLayout>

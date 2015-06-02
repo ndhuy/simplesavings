@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1889E7</color>
+    <color name="windowBackground">#F2F1F1</color>
+    <color name="colorPrimaryDark">#1A609C</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="navigationBarColor">#2A7EF5</color>
+    <color name="floatColorPrimary">#2A7EF5</color>
+    <color name="floatColorPrimaryDark">#1A609C</color>
+    <color name="moneyColorPrimary">#9A2323</color>
+    <color name="formColorBackground">#FFFFFF</color>
+    <color name="noticeColorPrimary">#B4B4B4</color>
+    <color name="blackText">#282626</color>
+</resources>

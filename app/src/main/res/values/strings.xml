@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Material Account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_room">Room</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="notification_null_1">:)</string>
+    <string name="notification_null_2">No transactions</string>
+    <string name="notification_null_3">Please tap the + button below to add some</string>
+
+    <string name="txt_defaut_edit_money">0 đ</string>
+    <string name="txt_default_notice">Ghi chú</string>
+
+    <string name="nav_item_account">Account</string>
+    <string name="nav_item_team">Team</string>
+    <string name="nav_item_teamlist">Team List</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_account</item>
+        <item>@string/nav_item_team</item>
+        <item>@string/nav_item_teamlist</item>
+    </string-array>
+
+    <string name="title_account">Account</string>
+    <string name="title_team">Team</string>
+    <string name="title_teamlist">Team List</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
